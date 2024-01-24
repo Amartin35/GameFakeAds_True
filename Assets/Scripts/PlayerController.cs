@@ -52,7 +52,7 @@ public partial class @PlayerController: IInputActionCollection2, IDisposable
                 {
                     ""name"": ""left"",
                     ""id"": ""ef656e9a-718b-4f42-b176-3d3eb84bb2b4"",
-                    ""path"": ""<Keyboard>/q"",
+                    ""path"": ""<Keyboard>/a"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
