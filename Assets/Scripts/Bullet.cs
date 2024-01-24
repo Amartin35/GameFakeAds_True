@@ -10,7 +10,7 @@ public class Bullet : MonoBehaviour
         Destroy(gameObject, lifeTime);
     }
     private void OnCollisionEnter(Collision collision) {
-        if (collision.collider.name.Contains("TonneauPrefab")) {
+        if (collision.collider.name.Contains("tonneau_True")) {
             Destroy(gameObject);
             collision.collider.GetComponent<Tonneau>().Hit();        
         }
